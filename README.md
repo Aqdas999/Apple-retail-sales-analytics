@@ -194,3 +194,70 @@ Unlike traditional SQL practice projects that focus primarily on query writing, 
 Rather than simply retrieving data, the queries are designed to answer strategic business questions related to sales performance, operational efficiency, product reliability, market expansion, and executive decision-making.
 
 The project demonstrates how SQL can be used as a decision-support tool in a retail business environment.
+
+## 📈 Key Business Insights
+
+The analysis performed throughout this project helps answer several important business questions, including:
+
+- Identify the highest-performing products and stores.
+- Measure revenue contribution across different markets.
+- Detect seasonal sales trends and changing customer demand.
+- Evaluate product reliability using warranty claim data.
+- Compare store performance against regional and category benchmarks.
+- Discover products with strong growth potential.
+- Identify opportunities for market expansion.
+- Support executive decision-making using data-driven insights.
+
+## 💡 Business Recommendations
+
+Based on the analytical queries developed in this project, potential business recommendations include:
+
+- Expand distribution of products with high revenue per store.
+- Increase marketing investment for products with strong sales and low warranty claim rates.
+- Investigate products with unusually high warranty claim percentages.
+- Consider opening additional stores in high-performing cities and countries.
+- Prepare inventory before peak demand periods identified through trend analysis.
+- Continuously benchmark store performance against company averages.
+
+## 📂 Repository Navigation
+
+| Folder | Contents |
+|---------|----------|
+| `data/` | Raw CSV datasets |
+| `schema/` | Database creation scripts |
+| `queries/` | SQL queries grouped by analysis category |
+| `docs/` | Project documentation |
+| `screenshots/` | Sample outputs and visuals |
+| `presentation/` | Executive presentation |
+| `assets/` | Images, diagrams and repository visuals |
+
+## 🚀 How to Run the Project
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/<your-username>/apple-retail-sales-analytics.git
+```
+
+2. Open PostgreSQL and pgAdmin 4.
+
+3. Create a new database.
+
+4. Execute the scripts inside the `schema/` folder.
+
+5. Import the CSV files from the `data/` folder.
+
+6. Execute the SQL scripts inside the `queries/` folder.
+
+7. Review the outputs and business insights.
+
+## 🚀 Future Improvements
+
+Future enhancements planned for this project include:
+
+- Interactive Power BI dashboard
+- Excel dashboard with Pivot Tables and KPIs
+- Python exploratory data analysis using Pandas
+- Predictive sales forecasting
+- Automated reporting using Python
+- Interactive business dashboard for executive reporting.
