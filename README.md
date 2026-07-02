@@ -85,7 +85,11 @@ Together, these tables simulate a realistic retail business environment suitable
 
 The database consists of five relational tables connected through primary and foreign key relationships.
 
-> **ER Diagram will be added here after the database schema is finalized.**
+### Entity Relationship Diagram
+
+<p align="center">
+  <img src="assets/er_diagram.png" alt="ER Diagram" width="900"/>
+</p>
 
 ## 📁 Project Structure
 
