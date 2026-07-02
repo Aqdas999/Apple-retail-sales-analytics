@@ -86,3 +86,111 @@ Together, these tables simulate a realistic retail business environment suitable
 The database consists of five relational tables connected through primary and foreign key relationships.
 
 > **ER Diagram will be added here after the database schema is finalized.**
+
+## 📁 Project Structure
+
+```text
+Apple-retail-sales-analytics
+│
+├── assets/              # Images, diagrams and project visuals
+├── data/                # Raw dataset files
+├── docs/                # Project documentation
+├── presentation/        # Executive presentation
+├── queries/             # SQL query files
+├── schema/              # Database creation scripts
+├── screenshots/         # Query outputs and visuals
+│
+├── README.md
+├── LICENSE
+```
+
+## 📊 Business Questions Covered
+
+The project answers business questions across multiple analytical domains.
+
+### Business Snapshot
+
+- Overall business performance
+- Revenue by country
+- Revenue by product
+- Revenue by store
+- Revenue by category
+
+### Market Analysis
+
+- Monthly sales trends
+- Product pricing insights
+- Product mix analysis
+- High-value transactions
+- Product launch performance
+- Market opportunity analysis
+
+### Product & Store Analytics
+
+- Product performance
+- Product reliability
+- Distribution efficiency
+- Store performance benchmarking
+- Market dependency
+- Portfolio analysis
+
+### Performance Analytics
+
+- Month-over-month growth
+- Product consistency
+- Sales momentum
+- Revenue contribution
+- Performance benchmarking
+- Market balance
+
+### Strategic Business Insights
+
+- Marketing prioritization
+- Operational improvements
+- Expansion opportunities
+- Revenue diversification
+- Inventory planning
+- Executive reporting
+
+## 💻 SQL Concepts Demonstrated
+
+| Category | Concepts |
+|----------|----------|
+| Joins | INNER JOIN, LEFT JOIN |
+| Aggregation | SUM, AVG, COUNT, MIN, MAX |
+| Grouping | GROUP BY, HAVING |
+| Common Table Expressions | WITH Clause |
+| Window Functions | LAG(), DENSE_RANK(), RANK() |
+| Conditional Logic | CASE, COALESCE, NULLIF |
+| Date Functions | DATE_TRUNC(), INTERVAL |
+| Analytical Functions | Running totals, rankings, benchmarking |
+| Subqueries | Correlated and non-correlated subqueries |
+
+## 🔄 Project Workflow
+
+```text
+Raw CSV Files
+        │
+        ▼
+Database Design
+        │
+        ▼
+PostgreSQL Database
+        │
+        ▼
+Business-focused SQL Queries
+        │
+        ▼
+Business Insights
+        │
+        ▼
+Recommendations
+```
+
+## ⭐ Why This Project?
+
+Unlike traditional SQL practice projects that focus primarily on query writing, this project emphasizes solving real business problems using SQL.
+
+Rather than simply retrieving data, the queries are designed to answer strategic business questions related to sales performance, operational efficiency, product reliability, market expansion, and executive decision-making.
+
+The project demonstrates how SQL can be used as a decision-support tool in a retail business environment.
